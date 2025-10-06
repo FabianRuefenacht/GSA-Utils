@@ -1,7 +1,6 @@
-"""LQP Version 7.00"""
+"""LQP Version 8.30"""
 
 import re
-
 
 def parseLQP(path: str) -> list[str]:
     with open(path, "r", encoding="latin-1") as file:
@@ -69,7 +68,7 @@ def process_resections(setups: list[str]) -> list[dict[str, any]]:
 
                 reflector_height = float(parts[12])
                 diagonal_distance = float(parts[14])
-                horizontal_distance = float(parts[22])
+                horizontal_distance = float(parts[31])
                 horizontal_dir = float(parts[16])
                 vertical_angle = float(parts[18].replace("|", ""))
 
