@@ -1,4 +1,4 @@
-"""LQP Version 8.30"""
+"""LQP Version 9.12"""
 
 import re
 

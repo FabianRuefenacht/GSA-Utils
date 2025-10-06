@@ -1,0 +1,67 @@
+|=====================================================================================================|
+|LeicaQualityProtocol Lite V7.51 für Captivate              erzeugt am: Datum 26.08.2025 Zeit 10:16:53|
+|                                                           Mit Captivate FW-Version: 9.12            |
+|Leica Geosystems AG                                                                                  |
+|Flurstrasse 55                                                                                       |
+|8048 Zürich                                                                                          |
+|=====================================================================================================|
+|Projekt-/Instrument-/Koordinatensystem-Informationen                                                 |
+|-----------------------------------------------------------------------------------------------------|
+|Projekt-Nr. : 250909_Gruppe5   Koordinatensys: swipos WGS84-LV95     Restkl.Vertlg.: Keine Verteilung|
+|Bearbeiter  :                  Transformation: LV95 Parameter        Koordsys. Typ : Klassisch 3D    |
+|Beschreibung:                  Projektion    : Swiss95               Mittelmodus   : Mittel          |
+|Beschreibung:                  Ellipsoid     : Bessel                Mittelmethode : Gewichtet       |
+|Instr. Typ  : MS60 1" R2000    Geoidmodell   : CHGeo2004_LV95        Toleranz Lage : 0.050           |
+|Instr. Nr.  : 883966           LSKS Modell   :                       Toleranz Höhe : 0.075           |
+|FW-Version  : 9.12                                                   Codeliste     :                 |
+|-----------------------------------------------------------------------------------------------------|
+|Proj. Typ   : Fest definiert                                                                         |
+|-----------------------------------------------------------------------------------------------------|
+|Trafo Typ   : 3D Helmert                Ursprung        X0        0.000 Y0       0.000 Z0       0.000|
+|Trafo Modell: Bursa-Wolf                Verschiebungen  dX     -674.374 dY     -15.056 dZ    -405.346|
+|Höhenmodus  : Ellipsoidisch             Rotationen(")   Rx      0.00000 Ry     0.00000 Rz     0.00000|
+|                                        Maßstab          M     1.000000                              |
+|=====================================================================================================|
+|                                    Protokoll über TPS-Messungen                                     |
+|=====================================================================================================|
+|Programm Stationierung V9.12 Methode Freie Stationierung               Datum 26.08.2025 Zeit 10:03:03|
+|-----------------------------------------------------------------------------------------------------|
+|Pt 1407             Cd                  Kl KTRL/3D       O  2785728.400  N 1195362.785  H    1130.698|
+|                                        RH        1.600 SD       10.786 Hz    235.5355  V    114.3248|
+|                                        2 Lagen Diff.   dSD       0.000 dHz     0.0010 dV     -0.0018|
+|                                        RK        0.000 HD       10.514 VD      -2.406 Hd      -4.006|
+|                                        Status       3D dl       -0.001 dq       0.002 dH      -0.001|
+|-----------------------------------------------------------------------------------------------------|
+|Pt 3192             Cd                  Kl KTRL/3D       O  2785688.350  N 1195405.886  H    1124.050|
+|                                        RH        2.150 SD       57.642 Hz    340.9414  V    109.4302|
+|                                        2 Lagen Diff.   dSD       0.000 dHz    -0.0009 dV     -0.0027|
+|                                        RK        0.000 HD       57.011 VD      -8.507 Hd     -10.657|
+|                                        Status       3D dl       -0.001 dq      -0.001 dH       0.001|
+|-----------------------------------------------------------------------------------------------------|
+|Pt 1075             Cd                  Kl KTRL/3D       O  2785760.687  N 1195394.253  H    1136.925|
+|                                        RH        1.600 SD       35.170 Hz     55.3676  V     93.0748|
+|                                        2 Lagen Diff.   dSD       0.000 dHz    -0.0021 dV     -0.0011|
+|                                        RK        0.000 HD       34.962 VD       3.818 Hd       2.218|
+|                                        Status       3D dl        0.003 dq       0.001 dH       0.000|
+|-----------------------------------------------------------------------------------------------------|
+|Pt 1312             Cd                  Kl KTRL/3D       O  2785764.067  N 1195363.222  H    1133.614|
+|                                        RH        1.600 SD       31.276 Hz    117.4799  V     98.9639|
+|                                        2 Lagen Diff.   dSD       0.000 dHz    -0.0020 dV     -0.0019|
+|                                        RK        0.000 HD       31.272 VD       0.509 Hd      -1.091|
+|                                        Status       3D dl       -0.001 dq       0.001 dH      -0.001|
+|-----------------------------------------------------------------------------------------------------|
+|Pt 8881             Cd                  Kl KTRL/3D       O  2785715.376  N 1195381.562  H    1129.378|
+|                                        RH        0.000 SD       21.711 Hz    331.0469  V    115.7861|
+|                                        2 Lagen Diff.   dSD       0.000 dHz    -0.0002 dV     -0.0020|
+|                                        RK        0.000 HD       21.047 VD      -5.329 Hd      -5.329|
+|                                        Status       3D dl        0.001 dq      -0.001 dH       0.001|
+|-----------------------------------------------------------------------------------------------------|
+|St FS9001           Cd                  IH        0.000  O  2785733.969  N 1195371.701  H    1134.706|
+|                                                        mO        0.001 mN       0.001 mH       0.001|
+|                                                         M     0.999946 mR      0.0009               |
+|                                                                        Or    372.3393               |
+|Lageberechnung: Kl.Quad. Ausgleichung   Höhenber.: Arith. Mittel   Höhe über AP´s berech. und gesetzt|
+|Maßstabsberech: Aktuelle Stationierung/Benutzer - PPM/Keine                                          |
+|Geom.-/Atm.-PPM/Druck/Temp. gesetzt     Ge.PPM          At.PPM     39.2  P       887.2  T        15.7|
+|=====================================================================================================|
+                                        www.leica-geosystems.ch
