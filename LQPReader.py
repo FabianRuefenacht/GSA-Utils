@@ -3,6 +3,18 @@
 import re
 
 def parseLQP(path: str) -> list[str]:
+    """Read file and split into segments based on seperator '|===...==|'.
+
+    Parameters
+    ----------
+    path : str
+        Path to LQP-File
+
+    Returns
+    -------
+    list[str]
+        Segments of the LQP-file.
+    """
     with open(path, "r", encoding="latin-1") as file:
         file_content = file.read()
         segments = file_content.split("|=====================================================================================================|")
@@ -11,6 +23,18 @@ def parseLQP(path: str) -> list[str]:
 
 
 def get_resections(segments: list[str]) -> list[str]:
+    """Filter segments by "Methode Freie Stationierung" which contain setups of the total station. Contains measurements which belong to those setups.
+
+    Parameters
+    ----------
+    segments : list[str]
+        Output of parseLQP
+
+    Returns
+    -------
+    list[str]
+        Segments of the LQP-file which contain setups.
+    """
     setups = []
 
     for segment in segments:
@@ -18,25 +42,19 @@ def get_resections(segments: list[str]) -> list[str]:
             setups.append(segment)
     return setups
 
-# def process_resections(setups: list[str]):
-#     entries = []
-
-#     for setup in setups:
-#         entry = setup.replace("\n", "").split("|-----------------------------------------------------------------------------------------------------|")
-#         for point in entry:
-#             setup_dict = dict()
-#             if "St " in point:
-#                 parts = point.split(" ")
-#                 setup_dict.update({"name": parts[1]})
-
-#             if "Pt " in point:
-#                 pass
-#         entries.append(setup_dict)
-
-
-#     return entries
-
 def process_resections(setups: list[str]) -> list[dict[str, any]]:
+    """Parse setups into a list of dictionaries. Each dictionary represents a setup with respective measurements.
+
+    Parameters
+    ----------
+    setups : list[str]
+        Output of get_resections.
+
+    Returns
+    -------
+    list[dict[str, any]]
+        Measurements of the respective setups as dict.
+    """
     entries = []
 
     for setup in setups:
